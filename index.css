@@ -17,12 +17,25 @@ nav {
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 30px;
-	margin-top: 14px;
 }
  
 nav a {
 	font-size: 13px;
-	padding: 5px 6.7px
+	line-height: 24px;
+	font-weight: 400;
+	color: rgb(0,0,0, 0.87);
+	cursor: pointer;
+	padding-right: 10px
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	cursor: pointer;
+	padding: 10px;
+    height: 50px;
 }
 
 .form{
@@ -41,6 +54,10 @@ nav a {
 	margin-top: 107px;
 }
 
+.s-box{
+    outline: none;
+}
+
 .s-box .s-input{
     width:580px;
     display:block;
@@ -50,8 +67,9 @@ nav a {
     border: 1px solid #ddd;
 	font-size: 16px;
 	padding: 13px;
-	padding-left: 45px;
+	padding-left: 40px;
 	border-radius: 25px;
+    outline: none;
 }
 
 .s-box .button-container{
@@ -65,4 +83,63 @@ nav a {
 	color: #666;
     font-size: 14px;
 	border-radius: 4px;
+    outline: none;
+	cursor: pointer;
+}
+
+.s-btn:hover {
+	border: 1px solid #aaa;
+}
+
+.language-container {
+    line-height: 28px;
+    font-size: small;
+    margin:auto;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.language-container a {
+    padding-left: 10px;
+}
+
+.language-container a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background: #F2F2F2;
+}
+
+footer h4 {
+	color: #666;
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 400;
+	padding-left: 25px;
+	border: 1px solid #eee;
+}
+
+footer a {
+	color: #666;
+	padding: 10px;
+	font-size: 14px;
+    line-height: 40px;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+.links {
+	border-top: 1px solid #ddd;
+	display: flex;
+    /* align-items: flex-end; */
+}
+
+.link-colletion-1{
+    padding-left: 20px;
+}
+
+.link-colletion-2{
+    padding-left: 900px;
 }
