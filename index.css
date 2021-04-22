@@ -58,3 +58,11 @@ nav a {
     margin:auto;
     text-align: center;  
 }
+
+.s-btn {
+	border: 1px solid transparent;
+    padding: 9px 15px;
+	color: #666;
+    font-size: 14px;
+	border-radius: 4px;
+}
